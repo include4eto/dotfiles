@@ -20,8 +20,9 @@ alias tp="task proj"
 
 PS1='[\u \W]\$ '
 
+# source local bashrc extensions
+source ~/bin/bash_local
 
-#function remind() {
 #	python ~/projects/doodles/other/reminder_scripts/reminder.py "$@"
 #}
 
