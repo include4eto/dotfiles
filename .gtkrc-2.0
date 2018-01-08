@@ -1,0 +1,4 @@
+style "xfwm-tabwin" {
+	Xfwm4TabwinWidget::preview-size = 100
+}
+widget "xfwm4-tabwin*" style "xfwm-tabwin"
