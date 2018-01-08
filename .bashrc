@@ -27,3 +27,5 @@ source ~/bin/bash_local
 #}
 
 #cowthink $(fortune -a -s)
+
+export PATH="$PATH:/home/include4eto/.miniconda3/bin"
