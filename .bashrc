@@ -10,13 +10,13 @@ export PATH=$PATH:~/bin:~/.gem/ruby/2.4.0/bin:~/npm/bin
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto --group-directories-first'
+alias l=ls
+alias h=history
+alias g=git
+alias gs='git status'
 
 alias move=mv
 alias copy=cp
-
-alias t=task
-alias tl="task list"
-alias tp="task proj"
 
 PS1='[\u \W]\$ '
 

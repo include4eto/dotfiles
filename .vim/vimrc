@@ -1,0 +1,11 @@
+syntax on
+inoremap jk <ESC>
+let mapleader = "\<Space>"
+filetype plugin indent on
+syntax on
+set encoding=utf-8
+
+noremap ; l
+noremap l k
+noremap k j
+noremap j h
