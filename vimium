@@ -1,0 +1,16 @@
+# vimium (chrome extension) remapping
+unmap h
+unmap H
+unmap K
+map b goBack
+map B goForward
+map j previousTab
+map k scrollDown
+map l scrollUp
+map ; nextTab
+map J scrollLeft
+map : scrollRight
+map w removeTab
+map T restoreTab
+map gf Vomnibar.activateTabSelection
+map gn nextFrame

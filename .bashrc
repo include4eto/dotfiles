@@ -6,6 +6,12 @@ export VISUAL=vim
 export EDITOR=vim
 export PATH=$PATH:~/bin:~/.gem/ruby/2.4.0/bin:~/npm/bin
 
+# Set GPG TTY (for unlocking keys)
+export GPG_TTY=$(tty)
+
+# Refresh gpg-agent tty in case user switches into an X session
+gpg-connect-agent updatestartuptty /bye >/dev/null
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -18,7 +24,7 @@ alias gs='git status'
 alias move=mv
 alias copy=cp
 
-PS1='[\u \W]\$ '
+PS1='[\u@\h \W]\$ '
 
 # source local bashrc extensions
 source ~/bin/bash_local
