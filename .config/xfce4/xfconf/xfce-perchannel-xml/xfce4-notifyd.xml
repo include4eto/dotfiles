@@ -5,6 +5,8 @@
   <property name="theme" type="string" value="Default"/>
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
+      <value type="string" value="chromium"/>
+      <value type="string" value="Electron"/>
       <value type="string" value="Liferea"/>
       <value type="string" value="liferea"/>
       <value type="string" value="nm-applet"/>

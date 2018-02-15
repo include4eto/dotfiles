@@ -4,7 +4,12 @@
 export LOCALE="en_US.UTF-8"
 export VISUAL=vim
 export EDITOR=vim
-export PATH=$PATH:~/bin:~/.gem/ruby/2.4.0/bin:~/npm/bin
+export PATH=$PATH:~/bin:~/bin/matlab:~/.gem/ruby/2.4.0/bin:~/npm/bin
+
+# dotnet core stuff
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export DOTNET_SKIP_FIRST_TIME_EXPERIENCE=1
+
 
 # Set GPG TTY (for unlocking keys)
 export GPG_TTY=$(tty)
@@ -20,6 +25,8 @@ alias l=ls
 alias h=history
 alias g=git
 alias gs='git status'
+alias gitc='git-commit'
+alias jsc=node
 
 alias move=mv
 alias copy=cp
