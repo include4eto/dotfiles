@@ -10,7 +10,6 @@ export PATH=$PATH:~/bin:~/bin/matlab:~/.gem/ruby/2.4.0/bin:~/npm/bin
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export DOTNET_SKIP_FIRST_TIME_EXPERIENCE=1
 
-
 # Set GPG TTY (for unlocking keys)
 export GPG_TTY=$(tty)
 
@@ -28,6 +27,14 @@ alias gs='git status'
 alias gitc='git-commit'
 alias jsc=node
 
+# set terminal title
+setTerminalTitle(){
+	str="echo -en '\033]0;${1}\a'";
+	PROMPT_COMMAND=$str;
+}
+alias title=setTerminalTitle $1
+alias t=title $1
+
 alias move=mv
 alias copy=cp
 
@@ -35,10 +42,4 @@ PS1='[\u@\h \W]\$ '
 
 # source local bashrc extensions
 source ~/bin/bash_local
-
-#	python ~/projects/doodles/other/reminder_scripts/reminder.py "$@"
-#}
-
-#cowthink $(fortune -a -s)
-
-export PATH="$PATH:/home/include4eto/.miniconda3/bin"
+export PATH="$PATH:/home/include4eto/.miniconda3//bin"
