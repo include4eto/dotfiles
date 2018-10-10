@@ -2,10 +2,96 @@ syntax on
 inoremap jk <ESC>
 let mapleader = "\<Space>"
 filetype plugin indent on
-syntax on
 set encoding=utf-8
 
+" remap control keys
 noremap ; l
 noremap l k
 noremap k j
 noremap j h
+
+" vim plug config
+call plug#begin('~/.vim/plugged')
+	Plug 'scrooloose/nerdtree'
+	Plug 'rafi/awesome-vim-colorschemes'
+	Plug 'ctrlpvim/ctrlp.vim'
+	Plug 'lervag/vimtex'
+
+	" A Vim Plugin for Lively Previewing LaTeX PDF Output
+	Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+
+	Plug 'nathanaelkane/vim-indent-guides'
+	Plug 'majutsushi/tagbar'
+	Plug 'raimondi/delimitMate'
+	Plug 'tyru/caw.vim'
+
+	Plug 'vim-airline/vim-airline'
+	Plug 'airblade/vim-gitgutter'
+
+	Plug 'vim-syntastic/syntastic'
+
+	" Plug 'SirVer/UltiSnips'
+	Plug 'mbbill/undotree'
+
+	Plug 'jpalardy/vim-slime'
+	Plug 'tpope/vim-surround'
+
+	Plug 'haya14busa/incsearch.vim'
+
+	"Plug 'valloric/youcompleteme'
+	Plug 'ajh17/VimCompletesMe'
+    Plug 'blindFS/vim-taskwarrior'
+    Plug 'scrooloose/nerdcommenter'
+" Initialize plugin system
+call plug#end()
+
+" nerdtree configs
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+"augroup ProjectDrawer
+"  autocmd!
+"  autocmd VimEnter * :Vexplore
+"augroup END
+
+" theme
+set background=dark
+colorscheme hybrid_material
+"IndentGuidesEnable
+
+" window switching
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+" nmap <C-Shift-W> <C-Q!><C-Q!>
+nmap <silent> <C-H> :NERDTreeToggle<CR>
+
+" control/ to comment
+nmap <C-_> <Plug>NERDCommenterToggle
+vmap <C-_> <Plug>NERDCommenterToggle<CR>gv
+
+" ctrl-s saves a file
+" If the current buffer has never been saved, it will have no name,
+" call the file browser to save it, otherwise just save it.
+command -nargs=0 -bar Controlsave if &modified  
+                           \|    if empty(bufname('%'))
+                           \|        browse confirm write
+                           \|    else
+                           \|        confirm write
+                           \|    endif
+                           \|endif
+nnoremap <silent> <C-S> :<C-u>Controlsave<CR>
+
+" tabs
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+set ignorecase
+
+" latex shell escape for minted
+let g:Tex_DefaultTargetFormat='pdf'
+

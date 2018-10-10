@@ -91,7 +91,7 @@
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/include4eto/wallpapers/HRyEgNn.jpg"/>
+          <property name="last-image" type="string" value="/home/include4eto/wallpapers/hello2_balck.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-timer" type="uint" value="5"/>
         </property>
@@ -115,6 +115,9 @@
           <property name="image-style" type="int" value="5"/>
           <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
         </property>
+        <property name="image-path" type="string" value="/home/include4eto/temp/hrafn/hrafn.png"/>
+        <property name="image-show" type="bool" value="true"/>
+        <property name="image-style" type="int" value="0"/>
       </property>
       <property name="monitor1" type="empty">
         <property name="workspace0" type="empty">
@@ -130,7 +133,7 @@
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/include4eto/wallpapers/FWO_2560x1600.jpg"/>
+          <property name="last-image" type="string" value="/home/include4eto/wallpapers/FWY_2560x1600.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-timer" type="uint" value="5"/>
         </property>
