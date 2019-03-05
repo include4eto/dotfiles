@@ -42,6 +42,7 @@ alias suspend='systemctl suspend'
 alias s='ssh'
 alias p='pass'
 alias sa='source activate'
+alias ..='cd ..'
 
 findsize() {
    dirname=${1:-.}
@@ -71,3 +72,6 @@ export PATH="$PATH:/home/include4eto/miniconda3/bin"
 
 # ctrl-s madness
 stty -ixon
+
+# directory colors pink
+LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
