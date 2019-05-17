@@ -41,9 +41,9 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Alt&gt;grave" type="string" value="xfce4-terminal --drop-down"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;o" type="string" value="python /fast_storage/projects/personal/window-switcher/app.py"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="lock"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="lock"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;o" type="string" value="python3 /fast_storage/projects/personal/window-switcher/app.py"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

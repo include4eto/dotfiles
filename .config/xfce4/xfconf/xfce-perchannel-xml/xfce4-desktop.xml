@@ -91,7 +91,7 @@
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/include4eto/wallpapers/hello2_balck.jpg"/>
+          <property name="last-image" type="string" value="/home/include4eto/wallpapers/5ljt1Zq.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-timer" type="uint" value="5"/>
         </property>
@@ -142,6 +142,65 @@
           <property name="image-style" type="int" value="5"/>
           <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
         </property>
+        <property name="workspace4" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
+        </property>
+      </property>
+      <property name="monitorLVDS1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/include4eto/temp/hrafn/hrafn.png"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/include4eto/temp/hrafn/hrafn.png"/>
+        </property>
+        <property name="workspace2" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/include4eto/wallpapers/5ljt1Zq.jpg"/>
+        </property>
+        <property name="workspace3" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/include4eto/temp/hrafn/hrafn.png"/>
+        </property>
+        <property name="workspace4" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/include4eto/temp/hrafn/hrafn.png"/>
+        </property>
+      </property>
+      <property name="monitorVGA1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
+        </property>
+        <property name="workspace2" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/home/include4eto/wallpapers/5xuQGr4.jpg"/>
+        </property>
+        <property name="workspace3" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
+        </property>
+        <property name="workspace4" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
+        </property>
       </property>
     </property>
     <property name="single-workspace-mode" type="bool" value="true"/>
@@ -160,6 +219,6 @@
   </property>
   <property name="last" type="empty">
     <property name="window-width" type="int" value="1116"/>
-    <property name="window-height" type="int" value="743"/>
+    <property name="window-height" type="int" value="704"/>
   </property>
 </channel>
